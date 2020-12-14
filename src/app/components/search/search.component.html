@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="container_heading">
+        <p>Search Package</p>
+    </div>
+    <div class="container_content">
+        <mat-form-field appearance="outline" class="container_content_form_field">
+            <mat-label>From City</mat-label>
+            <input matInput placeholder="">
+            <mat-icon matSuffix>
+                <span class="material-icons container_content_form_field_span">
+                    gps_fixed
+                </span>
+            </mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="container_content_form_field">
+            <input matInput class="container_content_form_field_bold" value="Makkah, Saudi Arabia">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="container_content_form_field">
+            <mat-label id="label">Select Month</mat-label>
+            <mat-select formControlName="dob month">
+                <mat-option *ngFor="let mm of month" [value]="mm.value">
+                    {{mm.viewValue}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="container_content_form_field">
+            <mat-label>Select No. of Travellers</mat-label>
+            <input matInput placeholder="">
+        </mat-form-field>
+
+        <button mat-stroked-button class="container_content_button">
+            SEARCH
+        </button>
+    </div>
+</div>

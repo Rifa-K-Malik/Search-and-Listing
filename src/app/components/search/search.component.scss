@@ -1,0 +1,27 @@
+@import 'src/styles.scss';
+
+.container{
+    display: block;
+    text-align: center;
+    &_heading{
+        font-weight: 400;
+        font-size: 16px;  
+        margin: 8% 0%; 
+    }
+    &_content_form_field{
+        width: 100%;
+        &_span{
+            color: rgb(153, 150, 150);
+        }
+        &_bold{
+            font-weight: bold;
+        }
+    }
+    
+    &_content_button{
+        width: 100%;
+        color: white;
+        font-size: 18px;
+        background-color: $colorgreen;
+    }
+}
