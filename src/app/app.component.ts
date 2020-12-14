@@ -9,17 +9,9 @@ import { SearchComponent } from './components/search/search.component';
 })
 export class AppComponent {
   title = 'Search-and-Listing';
-  constructor(
-    private dialog:MatDialog
-  ) {}
   
 ngOnInit(): void {
   
 }
-OpenDialog(){
-  this.dialog.open(SearchComponent ,{
-    height:'90vh',
-    width: '40%'
-  })
-}
+
 }

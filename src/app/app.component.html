@@ -1,12 +1,14 @@
- <div class="AppComponent">
+ <!-- <div class="AppComponent">
     <div class="AppComponent__Middle card">
         <div class="AppComponent__Middle">
-            <button mat-stroked-button (click)="OpenDialog()" class="AppComponent__Middle__Button">
+            <button  [routerLink] = "[ '/search' ]" mat-stroked-button class="AppComponent__Middle__Button">
                 SEARCH
             </button>
         </div>
     </div>
-</div> 
+</div>  -->
+<app-search></app-search>
+<!-- <app-listing></app-listing> -->
 
 
 <router-outlet></router-outlet>

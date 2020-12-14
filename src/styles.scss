@@ -35,9 +35,14 @@ $Search-and-Listing-theme: mat-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
+html, body { height: 100%;}
+body { margin: 0; font-family: Cera Pro, "Helvetica Neue", sans-serif; }
+
+
 $colorgreen:  #35C48C;
 $colorlightgreen: rgba(193, 213, 196, 0.46);
 $fontcolorred: #BC002D;
 $fontcolorgray: #808080;
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$fontsizeextralarge: 35px;
+$fontsizelarge: 18px;
+$fontsizemedium:16px;

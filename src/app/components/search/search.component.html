@@ -1,11 +1,14 @@
 <div class="container">
     <div class="container_heading">
-        <p>Search Package</p>
+        <span class=" material-icons container_heading_arrow">
+            keyboard_arrow_left
+            </span>
+        <span>Search Package</span>
     </div>
     <div class="container_content">
-        <mat-form-field appearance="outline" class="container_content_form_field">
+        <mat-form-field appearance="outline" class="container_content_form_field" >
             <mat-label>From City</mat-label>
-            <input matInput placeholder="">
+            <input matInput placeholder="" >
             <mat-icon matSuffix>
                 <span class="material-icons container_content_form_field_span">
                     gps_fixed
@@ -31,7 +34,7 @@
             <input matInput placeholder="">
         </mat-form-field>
 
-        <button mat-stroked-button class="container_content_button">
+        <button mat-stroked-button  class="container_content_button"  [routerLink]="[ '/listing' ]">
             SEARCH
         </button>
     </div>
