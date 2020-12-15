@@ -1,0 +1,113 @@
+@import 'src/styles.scss';
+
+.container{
+    display: grid;
+    text-align: center;
+       &_heading{
+        font-size: $fontsizemedium;  
+        margin: 40px 0px 20px 0px; 
+        &_arrow{
+            color: $colorgreen;
+            float: left;
+            font-size: $fontsizeextralarge;
+        }
+        &_search{
+            float: right;
+            font-size: $fontsizeextralarge;
+            color: $fontcolorgray;
+        }
+    }
+    &_sub_header{
+        text-align: center;
+        background-color: $colorlightgreen;
+        &_one{
+            font-weight: 500;
+        }
+        &_two{
+            font-size: $fontsizemedium;
+            font-weight: bold;
+            color: $colorgreen;
+        }
+        &_three{
+           font-size: $fontsizeextrasmall;
+        }
+    }
+    &_card{
+        border: 2px solid $colorgreen;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        &_left{
+            text-align: left;
+            width: 70%;
+            padding: 10px;
+            &_po{
+                font-weight: 500;
+                margin-bottom: 2px;
+            }
+            &_sone{
+                font-size: $fontsizesmall;
+                font-weight: 500;
+            }
+            &_stwo{
+                float: right;
+                color: $fontcolorgray;
+            }
+            &_m{
+                &_po{
+                    font-size: $fontsizesmall;
+                    margin-bottom: 2px;
+                }
+                &_pt{
+                    color: $fontcolorgray;
+                    font-size: $fontsizeten;
+                }
+
+            }
+            &_b{
+                &_p{
+                    color: $fontcolordarkgray;
+                }
+                &_span{
+                    font-size: $fontsizeten;
+                }
+            }
+        }
+        &_right{
+            float: right;
+            text-align: right;
+            width: 40%;
+            background-color: $colorlightgreen;
+            &_t{
+                padding: 10px;
+                &_icon{
+                    color: $colorgreen;
+                   font-size: $fontsizeextralarge;
+                   margin-bottom: 30px;
+                }
+                &_p1{
+                    color: $fontcolorgray;
+                    margin-bottom: 2px;
+                }
+                &_p2{
+                    color: $fontcolorred;
+                    font-size: $fontsizelarger;
+                    margin-bottom: 2px;
+                }
+                &_p3{
+                    font-size: $fontsizeextrasmall;
+                    color: $fontcolorgray;
+                    margin-bottom: 0px;
+                }
+            }
+            &_b{
+                background-color: $colorgreen;
+                text-align: center;
+                color: white;
+                padding: 10px;
+            }
+        }
+    }
+    
+
+}
