@@ -22,14 +22,17 @@
         background-color: $colorlightgreen;
         &_one{
             font-weight: 500;
+             margin-bottom: 2px;
         }
         &_two{
             font-size: $fontsizemedium;
             font-weight: bold;
             color: $colorgreen;
+             margin-bottom: 2px;
         }
         &_three{
            font-size: $fontsizeextrasmall;
+            margin-bottom: 2px;
         }
     }
     &_card{
@@ -54,19 +57,26 @@
                 color: $fontcolorgray;
             }
             &_m{
+                align-items: center;
+                &_img{
+                    margin-right: 5px;
+                }
                 &_po{
                     font-size: $fontsizesmall;
-                    margin-bottom: 2px;
+                    margin-bottom: 0px;
                 }
                 &_pt{
                     color: $fontcolorgray;
                     font-size: $fontsizeten;
+                    margin-bottom: 2px;
                 }
 
             }
             &_b{
+               
                 &_p{
                     color: $fontcolordarkgray;
+                    margin-bottom: 5px;
                 }
                 &_span{
                     font-size: $fontsizeten;
@@ -109,5 +119,12 @@
         }
     }
     
+
+}
+.container_card_left_b_span .material-icons{
+    font-size: 14px;
+    color: $fontcolorgray;
+    margin: 0px 2px 0px 7px;
+
 
 }
