@@ -1,4 +1,6 @@
 <div class="container p-0">
+
+    <!-- Top Header -->
     <div class="container_heading px-3">
         <span class="material-icons container_heading_arrow">
             keyboard_arrow_left
@@ -8,16 +10,23 @@
             search
         </span>
     </div>
+
+    <!-- Sub Header -->
     <div class="container_sub_header p-3">
         <p class="container_sub_header_one"> GET 10% OFF ON YOUR FIRST BOOKING</p>
         <p class="container_sub_header_two">FIRSTUMRAGO10</p>
         <p class="container_sub_header_three">Terms & conditions applied**</p>
     </div>
+
+    <!-- Card Content -->
     <div class="container_card card m-3 ">
+        <!-- Card (Left Content) -->
         <div class="container_card_left">
+
             <p class="container_card_left_po">Package name to come here</p>
-            <span class="container_card_left_sone">24 OCT - 15 DEC</span><span class="container_card_left_stwo">15N
-                14D</span>
+            <span class="container_card_left_sone">24 OCT - 15 DEC</span>
+            <span class="container_card_left_stwo">15N 14D</span>
+
             <div class="container_card_left_m my-2 d-flex">
                 <div class="container_card_left_m_img">
                     <img src="assets/img/airline.gif" alt="logo">
@@ -27,6 +36,8 @@
                     <p class="container_card_left_m_pt">Non Stop</p>
                 </div>
             </div>
+
+            <!-- Icons Content -->
             <div class="container_card_left_b">
                 <p class="container_card_left_b_p">Included in this price</p>
                 <div class="container_card_left_b_span">
@@ -50,13 +61,14 @@
                             <span> Meals </span>
                         </div>
                     </div>
+
                     <div class="d-flex align-items-center">
                         <div>
                             <span class="material-icons">
                                 king_bed
                             </span>
                             <span> Quint </span>
-                    </div>
+                        </div>
                         <div>
                             <span class="material-icons">
                                 directions_car
@@ -73,10 +85,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- Card Right Content -->
         <div class="container_card_right">
             <div class="container_card_right_t">
                 <div>
-                    <span class="material-icons container_card_right_t_icon">
+                    <span class="material-icons container_card_right_t_icon" [class.highlighted]="isActive"
+                        (click)="onClick()">
                         favorite
                     </span>
                 </div>
@@ -89,4 +104,90 @@
             </div>
         </div>
     </div>
-</div>
+
+    <!-- Card Content -->
+    <div class="container_card card m-3 ">
+        <!-- Card (Left Content) -->
+        <div class="container_card_left">
+
+            <p class="container_card_left_po">Package name to come here</p>
+            <span class="container_card_left_sone">24 OCT - 15 DEC</span>
+            <span class="container_card_left_stwo">15N 14D</span>
+
+            <div class="container_card_left_m my-2 d-flex">
+                <div class="container_card_left_m_img">
+                    <img src="assets/img/airline.gif" alt="logo">
+                </div>
+                <div>
+                    <p class="container_card_left_m_po">Saudia Airlines</p>
+                    <p class="container_card_left_m_pt">Non Stop</p>
+                </div>
+            </div>
+
+            <!-- Icons Content -->
+            <div class="container_card_left_b">
+                <p class="container_card_left_b_p">Included in this price</p>
+                <div class="container_card_left_b_span">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <span class="material-icons">
+                                business
+                            </span>
+                            <span>Hotels</span>
+                        </div>
+                        <div>
+                            <span class="material-icons">
+                                flight_takeoff
+                            </span>
+                            <span> Flights </span>
+                        </div>
+                        <div>
+                            <span class="material-icons">
+                                restaurant_menu
+                            </span>
+                            <span> Meals </span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <span class="material-icons">
+                                king_bed
+                            </span>
+                            <span> Quint </span>
+                        </div>
+                        <div>
+                            <span class="material-icons">
+                                directions_car
+                            </span>
+                            <span> Transfers </span>
+                        </div>
+                        <div>
+                            <span class="material-icons">
+                                credit_card
+                            </span>
+                            <span> Visa </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Right Content -->
+        <div class="container_card_right">
+            <div class="container_card_right_t">
+                <div>
+                    <span class="material-icons container_card_right_t_icon" [class.highlighted]="isActive"
+                        (click)="onClick()">
+                        favorite
+                    </span>
+                    <p class="container_card_right_t_p1"><del>86,232</del></p>
+                    <p class="container_card_right_t_p2">&#x20B9; 67,242</p>
+                    <p class="container_card_right_t_p3">Price Per Person</p>
+                </div>
+                <div class="container_card_right_b">
+                    <span> SAVE &#x20B9;18,000</span>
+                </div>
+            </div>
+        </div>
+    </div>

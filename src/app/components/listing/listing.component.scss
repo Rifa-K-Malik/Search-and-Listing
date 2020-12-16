@@ -91,9 +91,10 @@
             &_t{
                 padding: 10px;
                 &_icon{
-                    color: $colorgreen;
+                    color: rgb(187, 174, 174);
                    font-size: $fontsizeextralarge;
                    margin-bottom: 30px;
+                   cursor: pointer;
                 }
                 &_p1{
                     color: $fontcolorgray;
@@ -125,6 +126,8 @@
     font-size: 14px;
     color: $fontcolorgray;
     margin: 0px 2px 0px 7px;
+}
 
-
+.highlighted{
+    color:$colorgreen
 }
