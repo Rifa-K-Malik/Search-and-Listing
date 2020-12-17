@@ -9,13 +9,15 @@ import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProfileComponent } from './components/profile/profile.component';
+import { GridProfileComponent } from './components/grid-profile/grid-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     ListingComponent,
-    ProfileComponent
+    ProfileComponent,
+    GridProfileComponent
   ],
   imports: [
     BrowserModule,

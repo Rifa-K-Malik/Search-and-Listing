@@ -1,0 +1,70 @@
+.gc{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'sheader sheader sheader'
+    'left right1 right1'
+    'left right2 right2'
+    'left right3 right3'
+    'left right4 right4';
+    grid-gap: 1%;
+    padding: 5px;
+    background-color: #ececec;
+    padding-bottom: 100px;
+    &_h{
+        grid-area: header;
+        padding: 10px;
+        border: 2px soild #4a4a4a;
+        box-shadow: 0 1px 7px 0 rgba(0,0,0,.4);
+        background-color: white;
+        &_ul{
+            list-style: none;
+            margin: 0px;
+            &_li{
+                float: left;
+                margin: 0px 10px;
+            }
+        }
+    }
+    &_sh{
+        grid-area: sheader;
+    }
+    &_left{
+        grid-area: left;
+        margin-left: 10px;
+        &_c{
+            position: sticky;
+            top: 10px;
+            padding: 35px 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.1);
+            &_top{
+                text-align: center;
+                &_h{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+    &_right_c1{
+        grid-area: right1;
+    }
+    &_right_c2{
+        grid-area: right2;
+    }
+    &_right_c3{
+        grid-area: right3;
+    }
+    &_right_c4{
+        grid-area: right4;
+    }
+}
+
+.right-card{
+    // margin-bottom: 20px;
+    // margin-right: 10px;
+    margin: 0px 10px 20px 10px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.1);
+}
