@@ -1,0 +1,60 @@
+.c{
+    display: grid;
+    background-color: #ececec;
+    padding-bottom: 100px;
+
+    &_header{
+        padding: 10px;
+        border: 2px soild #4a4a4a;
+        box-shadow: 0 1px 7px 0 rgba(0,0,0,.4);
+        &_ul{
+            list-style: none;
+            margin: 0px;
+            &_li{
+                float: left;
+                margin: 0px 10px;
+            }
+        }
+    }
+
+    &_c_sub_header{
+
+    }
+
+    &_left{
+        position: sticky;
+        top: 10px;
+        padding: 35px 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.1);
+        &_top{
+            text-align: center;
+            &_h{
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    &_right{
+
+        &_card1{
+        }
+        &_card2{
+          
+        }
+        &_card3{
+        
+        }
+        &_card4{
+          
+        }
+
+    }
+}
+
+.c_right .card{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.1);
+}

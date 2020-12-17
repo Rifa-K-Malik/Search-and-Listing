@@ -8,12 +8,14 @@ import { ListingComponent } from './components/listing/listing.component';
 import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    ListingComponent
+    ListingComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
