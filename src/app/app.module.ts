@@ -10,6 +10,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProfileComponent } from './components/profile/profile.component';
 import { GridProfileComponent } from './components/grid-profile/grid-profile.component';
+import { ProfilehomeComponent } from './components/profilehome/profilehome.component';
+import { ProfilesidebarComponent } from './components/profilehome/profilesidebar/profilesidebar/profilesidebar.component';
+import { TravellersComponent } from './components/profilehome/travellers/travellers/travellers.component';
+import { LogindetailsComponent } from './components/profilehome/logindetails/logindetails/logindetails.component';
+import { ProfiledetailsComponent } from './components/profilehome/profiledetails/profiledetails/profiledetails.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { GridProfileComponent } from './components/grid-profile/grid-profile.com
     SearchComponent,
     ListingComponent,
     ProfileComponent,
-    GridProfileComponent
+    GridProfileComponent,
+    ProfilehomeComponent,
+    ProfilesidebarComponent,
+    LogindetailsComponent,
+    ProfiledetailsComponent,
+    TravellersComponent
   ],
   imports: [
     BrowserModule,
